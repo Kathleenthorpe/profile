@@ -1,0 +1,167 @@
+body {
+  background-color: #fafcfd;
+  font-family: 'Poppins', sans-serif;
+  color: blue;
+  font-size: 20px;
+  line-height: 15px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+}
+
+.round-photo {
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 300px;
+  border: 1px dotted
+  display: inline-block;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: 'Space Mono', monospace;
+  text-align:center;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 17px;
+  font-family: 'Space Mono', monospace;
+  text-align:center;
+  line-height: normal
+}
+
+h3 {
+  font-size: 10px;
+  font-family: 'Space Mono', monospace;
+  text-align:center;
+  line-height: normal
+}
+
+
+p {
+  font-size: 15px;
+  line-height: 5px;
+  text-align:center;
+  font-weight: bold;
+}
+
+li {
+  line-height: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+}
+
+.card {
+  background-color: #F2B7C6;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin:10px auto;
+}
+
+#header {
+  /* background-image: url(images/bubble.png); */
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 5px;
+  width: 38em;
+  left: 260px;
+  margin:10px;
+}
+
+#photo-space {
+  background-color: none;
+  margin: 0 auto;
+
+}
+
+#footer {
+  background-color: #F4FFFD;
+  padding: 3px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 400px;
+  position: relative;
+  left: 200px;
+  margin:10px;
+}
+
+
+.button-56 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: relative;
+  left: 230px;
+
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
